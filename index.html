@@ -37,6 +37,10 @@
       font-family: PingFangSC-Regular;
     }
 
+    .inputArea>.smsInput {
+      width: calc(100% - 120px);
+    }
+
     .inputArea>input::placeholder {
       font-size: 16px;
       color: #8888888f;
@@ -75,7 +79,7 @@
       </div>
       <!-- 短信验证码 -->
       <div class="inputArea">
-        <input type="number" placeholder="短信验证码" />
+        <input type="number" class="smsInput" placeholder="短信验证码" />
         <div class="sperate" style="margin: 0 16px"></div>
         <div class="float_div">
           获取短信验证码
